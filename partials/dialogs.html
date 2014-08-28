@@ -1,0 +1,59 @@
+<div class="row">
+             <div class="jumbotron-primary">
+                 <h1>Dialogs</h1>
+             </div>
+<div id="page1" class="pages">
+    <div class="col-md-12">
+                <div class="row">
+            <div class="col-lg-12">
+                <div class="page-header">
+                    <h1 id="tables">Dialogs</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6" style="overflow:hidden;">
+                <h2>Modals</h2>
+                <div class="modal" style="bottom: auto; display: block; left: auto; position: relative; right: auto; top: auto; z-index: 1; overflow:hidden;">
+                    <div class="modal-dialog" style="width:90%;">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Modal title</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>One fine body&hellip;</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h2>Popovers</h2>
+                <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Left</button>
+                <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Top</button>
+                <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Bottom</button>
+                <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Right</button>
+                <h2>Tooltips</h2>
+                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip on left</button>
+                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Tooltip on top</button>
+                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Tooltip on bottom</button>
+                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Tooltip on right</button>
+            </div>
+        </div>
+
+        <div class="clearfix" style="height:50px;"></div>
+    </div>
+            
+</div>
+</div>
+<script type="text/javascript">
+            jQuery(function ($) {
+                $('[data-toggle="popover"]').popover();
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+        </script>
