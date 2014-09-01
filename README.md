@@ -15,3 +15,4 @@ Instrucciones
 Aclaración
 ==========
 Esta guía todavía está en fase alfa, por lo que le falta bastante. Cualquier duda o sugerencia, me ponen un issue.
+La mayoría de las cosas están en inglés por que creo que va a ser más fácil de entender para todos.
