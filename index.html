@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html ng-app="bmiReporting">
     <head>
-        <link rel="stylesheet" href="assets/css/opi-bootstrap.css" />
+        <link rel="stylesheet" href="https://ccmmoduledev.pouncecorp.com/libraries/bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" href="https://ccmmoduledev.pouncecorp.com/css/app.css" />
         <link rel="stylesheet" href="assets/css/style.css" />
 	<link rel="stylesheet" href="assets/css/transitions.css" />
 	<link rel="stylesheet" href="assets/css/left.css" />
     </head>
     <body>
-    
+
         <!-- Header -->
-	
+
 	<div class="col-md-2">
     	<div ng-include="'partials/sidebars/left.html'"></div>
 	</div>
         <!-- App Content Container -->
 	<div class="col-md-10">
-	    
+
 	    <div class="page-container">
 		<div ng-view="" class="page-view" ng-class="pageAnimationClass"></div>
 	    </div>
@@ -33,7 +34,7 @@
 	<script src="assets/js/vendor/ui-bootstrap-0.11.0.js"></script>
 	<script src="assets/js/functions.js"></script>
         <script src="assets/js/app.js"></script>
-        
+
 
     </body>
 </html>

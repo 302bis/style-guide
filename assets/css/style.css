@@ -31,6 +31,10 @@ position: relative;
     padding: 41px 20px 41px 10px;
     background: #fafafa;
 }
+.left-menu{
+    position: relative;
+    z-index: 1;
+}
 .left-menu .panel{
     border:none;
 }
