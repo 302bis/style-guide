@@ -1,6 +1,6 @@
-var bmiReporting = angular.module("bmiReporting",[]);
+var styleguide = angular.module("styleguide",[]);
 
-bmiReporting.controller("con",function($scope){
+styleguide.controller("con",function($scope){
 $scope.clase = "unactive";
     $scope.changeClase = function(){
         if ($scope.clase === "unactive")

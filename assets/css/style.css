@@ -14,23 +14,10 @@ position: relative;
     width: 100%;
     -webkit-backface-visibility: hidden;
     perspective: 1000;
-    color: #fafafa;
 }
-#page1 {
-    color: #333;
-}
-.topbar a{
-    color: #fff;
-    border:1px solid #333 !important;
-}
-.topbar a:hover{
-    background: transparent !important;
-    border-bottom: 1px solid #fff !important;
-}
-.brand{
-    padding: 41px 20px 41px 10px;
-    background: #fafafa;
-}
+
+
+
 .left-menu{
     position: relative;
     z-index: 1;
@@ -56,4 +43,22 @@ a.btn-outline:hover {
 color: #fff;
 background-color: #333;
 border:2px solid #333;
+}
+.logo-body img{
+    height: 300px;
+}
+a.btn-hero {
+    margin: 0;
+    display: block !important;
+    width: 50%;
+    color: #fff !important;
+    border-radius: 25px;
+    background-color: #00A2F3;
+    border-color: #00A2F3;
+    transition: all 0.6s ease;
+}
+.btn-hero:hover {
+    color: #ffffff;
+    background-color: #0079B6;
+    border-color: #0079B6;
 }

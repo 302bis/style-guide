@@ -1,12 +1,12 @@
 // Declare the main module
-var bmiReporting = angular.module('bmiReporting', [
+var style = angular.module('style', [
     'ngRoute',
     'ngAnimate',
     'ui.bootstrap'
 ]);
 
 // Initialize the main module
-bmiReporting.run(['$rootScope', '$location', '$window', function ($rootScope, $location, $window) {
+style.run(['$rootScope', '$location', '$window', function ($rootScope, $location, $window) {
 
     'use strict';
 
@@ -36,7 +36,7 @@ bmiReporting.run(['$rootScope', '$location', '$window', function ($rootScope, $l
 }]);
 
 // Configure the main module
-bmiReporting.config(['$routeProvider', function ($routeProvider) {
+style.config(['$routeProvider', function ($routeProvider) {
 
     'use strict';
 
